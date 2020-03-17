@@ -10,6 +10,7 @@ void loop()
 {
   //wdt_disable();
   Serial.println("Arduino All Working...");
+  Serial.println("Hello I'm Oranya Sukkaew");
   delay(3000);// หน่วงเวลา 3000ms
   wdt_reset(); //สั่งให้ wdt reset เริ่มจับเวลาใหม่
 }
